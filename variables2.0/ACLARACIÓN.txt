@@ -1,0 +1,9 @@
+Si queremos hacer una variable vacia tendremos que usar su metodo para crear esa variable
+
+para los conjuntos es: set([])
+
+para los diccionarios es: dict()
+
+para las tuplas es: tuple([])
+
+para las listas es: list([])

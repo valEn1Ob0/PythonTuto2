@@ -1,0 +1,111 @@
+Comandos útiles de Python (organizados por categoría)
+A. Entrada y salida
+print() - Imprime en consola.
+input() - Lee entrada del usuario.
+format() - Da formato a cadenas.
+f"" - F-strings para interpolación de variables.
+open() - Abre un archivo.
+read() - Lee un archivo completo.
+readline() - Lee una línea de un archivo.
+readlines() - Lee todas las líneas como una lista.
+write() - Escribe en un archivo.
+close() - Cierra un archivo.
+B. Tipos y conversión de datos
+type() - Devuelve el tipo de una variable.
+str() - Convierte a cadena.
+int() - Convierte a entero.
+float() - Convierte a flotante.
+bool() - Convierte a booleano.
+list() - Convierte a lista.
+tuple() - Convierte a tupla.
+set() - Convierte a conjunto.
+dict() - Convierte a diccionario.
+len() - Devuelve la longitud de un objeto.
+C. Operaciones matemáticas
+abs() - Valor absoluto.
+round() - Redondeo.
+pow() - Potencia (x**y).
+min() - Mínimo de una secuencia.
+max() - Máximo de una secuencia.
+sum() - Suma de una secuencia.
+divmod() - División y módulo.
+math.sqrt() - Raíz cuadrada.
+math.ceil() - Redondeo hacia arriba.
+math.floor() - Redondeo hacia abajo.
+D. Manipulación de cadenas
+upper() - Convierte a mayúsculas.
+lower() - Convierte a minúsculas.
+strip() - Elimina espacios en blanco.
+replace() - Reemplaza subcadenas.
+split() - Divide una cadena.
+join() - Une elementos de una lista.
+startswith() - Verifica si comienza con una subcadena.
+endswith() - Verifica si termina con una subcadena.
+find() - Encuentra un índice.
+count() - Cuenta ocurrencias.
+E. Listas
+append() - Agrega un elemento.
+extend() - Extiende con otra lista.
+insert() - Inserta en un índice.
+remove() - Elimina un elemento.
+pop() - Elimina por índice.
+sort() - Ordena la lista.
+reverse() - Invierte el orden.
+index() - Encuentra el índice de un elemento.
+copy() - Copia la lista.
+clear() - Vacía la lista.
+F. Diccionarios
+keys() - Devuelve las claves.
+values() - Devuelve los valores.
+items() - Devuelve pares clave-valor.
+get() - Obtiene un valor.
+pop() - Elimina un par clave-valor.
+update() - Actualiza con otro diccionario.
+setdefault() - Establece un valor predeterminado.
+clear() - Vacía el diccionario.
+copy() - Copia el diccionario.
+fromkeys() - Crea un diccionario con claves dadas.
+G. Conjuntos
+add() - Agrega un elemento.
+update() - Agrega múltiples elementos.
+remove() - Elimina un elemento.
+discard() - Elimina sin error si no existe.
+pop() - Elimina un elemento arbitrario.
+union() - Unión de conjuntos.
+intersection() - Intersección.
+difference() - Diferencia.
+issubset() - Verifica subconjunto.
+issuperset() - Verifica superconjunto.
+H. Control de flujo
+if - Condicional.
+elif - Condicional adicional.
+else - Condicional por defecto.
+for - Iteración sobre secuencias.
+while - Bucle con condición.
+break - Sale del bucle.
+continue - Salta a la siguiente iteración.
+pass - No hace nada.
+try - Manejo de excepciones.
+except - Bloque de excepción.
+finally - Bloque que siempre se ejecuta.
+I. Funciones y módulos
+def - Define una función.
+lambda - Define una función anónima.
+return - Devuelve un valor.
+import - Importa módulos.
+from ... import - Importa partes de un módulo.
+as - Alias para un módulo.
+help() - Muestra documentación.
+dir() - Lista atributos.
+__name__ - Nombre del módulo.
+J. Otros comandos útiles
+enumerate() - Itera con índice. 
+zip() - Combina iterables.
+map() - Aplica una función.
+filter() - Filtra elementos.
+any() - Verifica si algún elemento es True.
+all() - Verifica si todos son True.
+range() - Genera una secuencia.
+eval() - Evalúa una expresión.
+exec() - Ejecuta código Python.
+time.sleep() - Pausa la ejecución.
