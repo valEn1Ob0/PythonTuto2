@@ -5,11 +5,11 @@ person = {
 } # definimos el diccionario con algun dato
 print(person["calorias"]) # imprimimos el valor con su clave (solo se puede acceder al valor)
 
-# los diccionarios pueden cambiar pero 
+# los diccionarios pueden cambiar
 person = {10:20} 
 print(person)
 
-# los diccionarios no permiten elementos duplicados para claves
+# los diccionarios no permiten claves duplicadas
 person = {
     "clave1": 20, 
     "clave1": 10,

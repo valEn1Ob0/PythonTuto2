@@ -1,0 +1,11 @@
+Los datos son:
+
+nombre: n1
+apellido: a1
+--------
+nombre: n2
+apellido: a2
+--------
+nombre: n3
+apellido: a3
+--------

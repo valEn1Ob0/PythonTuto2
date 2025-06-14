@@ -19,6 +19,9 @@ while contador < opciones:
         print("3 para hacer una división")
         print("4 para salir")
         opcion = int(input("ingrese una operacion: "))
+        if opcion == 4:
+            print("gracias por usar la calculadora")
+            break
         num1 = float(input("ingrese el primer numero: "))
         num2 = float(input("ingrese el segundo numero: "))
         
@@ -32,9 +35,7 @@ while contador < opciones:
         elif opcion == 3:
             print(f"el resultado es: {divicion(num1, num2)}")
             contador += 1
-        elif opcion == 4:
-            print("gracias por usar la calculadora")
-            contador += 1
+        
     except ValueError as e:
         print(e)
     except ZeroDivisionError as er:
