@@ -8,4 +8,4 @@ def read_csv_in_chunks(file_name):
             print(f"Chunck {i}: ")
             print(chunck)
 
-read_csv_in_chunks("big_file.csv")
+read_csv_in_chunks("archivo_grande.csv")

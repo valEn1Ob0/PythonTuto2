@@ -1,5 +1,4 @@
-hola maestro
-putaadaewra
+Hola maestro
 
 linea con for: {i} agregada
 linea con for: {i} agregada

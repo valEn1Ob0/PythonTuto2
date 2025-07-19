@@ -15,4 +15,4 @@ def read_csv_in_chunks(file_name: str) -> None:
         print(chunk)
 
 
-read_csv_in_chunks("big_file.csv")
+read_csv_in_chunks("archivo_grande.csv")
