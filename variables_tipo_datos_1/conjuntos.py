@@ -1,8 +1,8 @@
-conjunto = {1, 'nombre', True} # definimos el conjunto con algun dato
+conjunto = {1, 'nombre'} # definimos el conjunto con algun dato
 print(conjunto) # los conjuntos no se pueden acceder por su indice. Como resultado da un error
  
 # los conjuntos se puede modificar pero solo el conjunto entero
-conjunto = {1, 2, 3}
+conjunto = {1, 'nombre'}
 print(conjunto)
 
 # los conjuntos no permiten elementos duplicados

@@ -1,0 +1,9 @@
+El inicializador de cada objeto puedo usar:
+
+Para los conjuntos es: set([])
+
+Para los diccionarios es: dict()
+
+Para las tuplas es: tuple([])
+
+Para las listas es: list([])

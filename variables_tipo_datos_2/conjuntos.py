@@ -14,7 +14,7 @@ conjunto_on = {conjunto_in,"datoon1","dato2"}
 
 print("\n",conjunto_on)
 
-# teoria de conjuntos
+# teoría de conjuntos
 super_conjunto = {1,3,5,7}
 mini_conjunto = {1,3,7}
 
@@ -33,6 +33,6 @@ print("\n",result3)
 result4 = super_conjunto.issuperset(mini_conjunto)
 print("\n",result4)
 
-# preguntamos si hay algun común con "isdisjoint()" si lo hay da "False" y si no los hay da "True"
+# preguntamos si hay algún común con "isdisjoint()" si lo hay da "False" y si no los hay da "True"
 result5 = super_conjunto.isdisjoint(mini_conjunto)
 print("\n",result5)

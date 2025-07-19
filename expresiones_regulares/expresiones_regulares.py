@@ -1,29 +1,31 @@
 import re
 
-texto = """Hola esta es una expresion regular @ 1 xd, BLablabla blablabla blablabla. Polno
+texto = \
+"""
+Hola esta es una expresion regular @ 1 xd, BLablabla blablabla blablabla. Polno
 lorem ipsum dolor 21 sit amet, consectetur adipiscing elit .
 linea 3. final papu abababab
 """
 
-resultado = re.search("blablabla",texto) # busca la expresion en el texto seleccionado y la devuelve como un objeto si esta o como None
+resultado = re.search("blablabla",texto) # busca la expresión en el texto seleccionado y la devuelve como un objeto si esta o como None
 
-resultado2 = re.findall("blablabla",texto) # busca todas las coincidencias de la expresion en el texto seleccionado y las devuelve como una lista
+resultado2 = re.findall("blablabla",texto) # busca todas las coincidencias de la expresión en el texto seleccionado y las devuelve como una lista
 
-resultado3 = re.findall("blablabla",texto,re.IGNORECASE) # lo mismo que la anterior pero no es case sensitive
+resultado3 = re.findall("blablabla",texto,re.IGNORECASE) # lo mismo que la anterior, pero no es case sensitive
 
-# \d -> busca digitos numericos del 0-9
-resultado4 = re.findall(r"\d",texto) # se usa el r al principio para indicar que es una expresion regular
-# \D -> al hacer mayusucla busca el contrario a la expresion normal
+# \d -> busca digitos numéricos del 0-9
+resultado4 = re.findall(r"\d",texto) # se usa el "r" al principio para indicar que es una expresión regular
+# \D -> al hacer mayúscula busca el contrario a la expresión normal
 resultado5 = re.findall(r"\D",texto)
 
-# \w -> busca caracteres alfanumericos [a-z A-Z 0-9 _]
+# \w -> busca caracteres alfanuméricos [a-z A-Z 0-9 _]
 resultado6 = re.findall(r"\w",texto)
-resultado7 = re.findall(r"\W",texto) # busca caracteres no alfanumericos
+resultado7 = re.findall(r"\W",texto) # busca caracteres no alfanuméricos
 
-# \s -> busca espacios en blanco [espacios, tabs, saltos de linea]
+# \s -> busca espacios en blanco [espacios, tabs, saltos de línea]
 resultado8 = re.findall(r"\s",texto)
 
-# . -> busca cualquier caracter menos saltos en linea
+# . -> busca cualquier caracter menos saltos en línea
 resultado9 = re.findall(r".",texto)
 
 # \n -> busca saltos de linea
@@ -44,10 +46,10 @@ resultado16 = re.findall(r"$",texto)
 resultado17 = re.findall(r"papu$",texto)
 resultado18 = re.findall(r"Polno$",texto,flags=re.M)
 
-# {n} -> busca la expresion n veces en una cadena
+# {n} -> busca la expresión n veces en una cadena
 resultado19 = re.findall(r"\d{2}",texto)
 
-# {n,m} -> busca la expresion entre n y m veces en una cadena
+# {n, m} -> busca la expresión entre n y m veces en una cadena
 resultado20 = re.findall(r"\d{2,4}",texto)
 resultado21 = re.findall(r"ab{2,4}",texto) # busca la expresion empezando de la a hasta que b entre 2 y 4 veces
 resultado22 = re.findall(r"(ab){2,4}",texto) # busca el grupo de la expresion cierta cantidad de veces
