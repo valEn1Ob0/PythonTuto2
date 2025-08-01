@@ -34,12 +34,12 @@ resultado10 = re.findall(r"\n",texto)
 # \ -> cancela caracteres especiales
 resultado11 = re.findall(r"\.",texto)
 
-resultado12 = re.findall(r"\d\.\s",texto) # en este caso se busca digitos, segido de un punto y un espacio
+resultado12 = re.findall(r"\d\.\s",texto) # en este caso se busca digitos, seguido de un punto y un espacio
 
 # ^ -> busca el inicio de una linea
 resultado13 = re.findall(r"^",texto)
-resultado14 = re.findall(r"^Hola",texto) # busca la expresion en el texto seleccionado
-resultado15 = re.findall(r"^lorem",texto,flags=re.M) # interpreta el texto despues del "\n" como una nueva linea
+resultado14 = re.findall(r"^Hola",texto) # busca la expresión en el texto seleccionado
+resultado15 = re.findall(r"^lorem",texto,flags=re.M) # interpreta el texto después del "\n" como una nueva linea
 
 # $ -> busca el final de una linea
 resultado16 = re.findall(r"$",texto)
@@ -51,10 +51,10 @@ resultado19 = re.findall(r"\d{2}",texto)
 
 # {n, m} -> busca la expresión entre n y m veces en una cadena
 resultado20 = re.findall(r"\d{2,4}",texto)
-resultado21 = re.findall(r"ab{2,4}",texto) # busca la expresion empezando de la a hasta que b entre 2 y 4 veces
-resultado22 = re.findall(r"(ab){2,4}",texto) # busca el grupo de la expresion cierta cantidad de veces
-resultado23 = re.findall(r"(ab){2}",texto) # busca el grupo de la expresion cierta cantidad de veces
-resultado24 = re.findall(r"[ab]{2}",texto) # similar al anterior pero no importa el orden
+resultado21 = re.findall(r"ab{2,4}",texto) # busca la expresión empezando de la a hasta que b entre 2 y 4 veces
+resultado22 = re.findall(r"(ab){2,4}",texto) # busca el grupo de la expresión cierta cantidad de veces
+resultado23 = re.findall(r"(ab){2}",texto) # busca el grupo de la expresión cierta cantidad de veces
+resultado24 = re.findall(r"[ab]{2}",texto) # similar al anterior, pero no importa el orden
 
 # | -> busca una cosa o la otra similar a un or logico
 resultado25 = re.findall(r"\d{2,4}|lorem",texto)

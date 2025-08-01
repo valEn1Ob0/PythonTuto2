@@ -1,5 +1,5 @@
-conjunto = {1, 'nombre'} # definimos el conjunto con algun dato
-print(conjunto) # los conjuntos no se pueden acceder por su indice. Como resultado da un error
+conjunto = {1, 'nombre'} # definimos el conjunto con algún dato
+print(conjunto) # los conjuntos no se pueden acceder por su índice. Como resultado da un error
  
 # los conjuntos se puede modificar pero solo el conjunto entero
 conjunto = {1, 'nombre'}

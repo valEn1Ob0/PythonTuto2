@@ -5,6 +5,6 @@ print(tupla[0]) # imprimimos la lista con su índice 0 y el elemento 1 (el índi
 tupla = (1, 2, 3, 3)
 print(tupla)
 
-# la tupla no se puede modificar 
-tupla[2] = "cambio"
-print(tupla) # como resultado me va a dar un error
+# la tupla no se puede modificar a menos que la modifiques completamente
+tupla = (4, 5, 6)
+tupla[2] = "cambio" # como resultado me va a dar un error

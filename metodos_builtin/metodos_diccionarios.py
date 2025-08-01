@@ -9,12 +9,12 @@ claves = diccionario.keys()
 
 print(claves)
 
-# devuelve el valor de las claves cuando se las menciona (si no se encuantra la clave el programa continua)
+# devuelve el valor de las claves cuando se las menciona (si no se encuentra la clave el programa continúa)
 valor_claves = diccionario.get('clave1')
 
 print(valor_claves)
 
-# elimina un elemento del diccionario con su identificación (coma para sacar mas elementos)
+# elimina un elemento del diccionario con su identificación (coma para sacar más elementos)
 diccionario.pop('clave1')
 
 print(diccionario)

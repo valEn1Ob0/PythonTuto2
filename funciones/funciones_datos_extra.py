@@ -1,13 +1,13 @@
-def formulario(nombre,apellido,pais):
-    return f"hola {nombre}, su apellido es {apellido} y su pais {pais}"
+def formulario(nombre,apellido,país):
+    return f"hola {nombre}, su apellido es {apellido} y su pais {país}"
 
-# parametros con palablas clave
-relleno = formulario(apellido="pere",nombre="matias",pais="chile")
+# parámetros con palabras clave
+relleno = formulario(apellido="pere", nombre="matias", país="chile")
 print(relleno)
 
 
-# en este caso las palabras clave son valores definidos siempre al final los parametros
-def blabla(precios,marca="apple"): 
+# en este caso las palabras clave son valores definidos siempre al final los parámetros
+def blabla(precios, marca="apple"):
     return f"la marca: {marca} lanzo su producto a este precio: {precios}"
 
 producto = blabla(10)

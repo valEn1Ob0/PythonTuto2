@@ -1,17 +1,17 @@
-numeros = [10, 1, 7, 8, 9]
+números = [10, 1, 7, 8, 9]
 
-numeros_mas_alto = max(numeros)
-print(numeros_mas_alto)
+números_más_altos = max(números)
+print(números_más_altos)
 
-nuemro_mas_bajo = min(numeros)
-print(numeros_mas_alto)
+número_más_bajo = min(números)
+print(números_más_altos)
 
 
 # redondear a 6 decimales
 numero = round(12.456,1)
 print(numero)
 
-# duvuelve False si el valor es 0, vacio, False, None
+# devuelve False si el valor es 0, vacío, False, None
 resultado_bool = bool()
 print(resultado_bool) # False
 
@@ -23,7 +23,7 @@ print(resultado_bool2) # True
 resultado_all = all([123, True, False])
 print(resultado_all) # False
 
-# suma todos los elementos array sino devuelve un error
-suma_total = sum(numeros)
+# suma todos los elementos array si no devuelve un error
+suma_total = sum(números)
 
 print(suma_total)

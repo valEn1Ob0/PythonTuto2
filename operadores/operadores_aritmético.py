@@ -1,15 +1,15 @@
 x = 20
 y = 3
-print("RESULTADO:",x + y) # (+)SUMA LAS 2 VARIABLES
+print("resultado:", x + y) # (+) suma las 2 variables
 
-print("RESULTADO:",x - y) # (-)RESTA LAS 2 VARIABLES
+print("resultado:", x - y) # (-) resta las 2 variables
 
-print("RESULTADO:",x * y) # (*)MULTIPLICA LAS 2 VARIABLES 
+print("resultado:", x * y) # (*) multiplica las 2 variables
 
-print("RESULTADO:",x / y) # (/)DIVIDE LAS 2  VARIABLES
+print("resultado:", x / y) # (/) divide las 2 variables
 
-print("RESULTADO:",x // y) # (//)DIVIDE LAS 2 VARIABLES COMO RESULTADO ENTERO, SI EL RESULTADO ES MAYOR ,50 SE VA A REDONDEAR PARA ABAJO
+print("resultado:", x // y) # (//) divide las 2 variables como resultado entero, si el resultado es mayor, 50 se va a redondear para abajo
 
-print("RESULTADO:",x % y) # (%)DA EL RESTO DE UNA DIVISIÓN ENTERA ENTRE LAS 2 VARIABLES
+print("resultado:", x % y) # (%) da el resto de una división entera entre las 2 variables
 
-print("RESULTADO:",x ** y) # (**)CALCULA LA POTENCIA ENTRE LAS DOS VARIABLES 
+print("resultado:", x ** y) # (**) calcula la potencia entre las dos variables

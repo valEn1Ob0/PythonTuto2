@@ -18,12 +18,12 @@ lista.insert(0,20)
 
 print(lista)
 
-# agrega varios elementos a la lista en la ultima posción
+# agrega varios elementos a la lista en la última posición
 lista.extend([10, False, 12, 13,5])
 
 print(lista)
 
-# elimina elementos de la lista (por su indice)
+# elimina elementos de la lista (por su índice)
 lista.pop(0)
 
 print(lista)
@@ -43,7 +43,7 @@ lista.sort(reverse=True)
 
 print(lista)
 
-# invirte los elementos de una lista
+# invierte los elementos de una lista
 lista.reverse()
 
 print(lista)

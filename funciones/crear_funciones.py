@@ -1,4 +1,4 @@
-# creando una funcion simple
+# creando una función simple
 #def saludar():
 #    print("hola")
 #
@@ -6,32 +6,34 @@
 #saludar()
 #saludar()
 #
-# o tambien
+# o también
 #print("")
 #
 #for _ in range(3):
 #    saludar()
 
 
-# funcion co parametros
+# función con parámetros
 def saludar(nombre):
     print(f"hola, {nombre}")
 
 saludar("juan")
 
-# funcion con un retorno
+# función con un retorno
 def encriptar(num):
     chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     contraseña = chars[num % len(chars)]
     return contraseña
     
-def desencriptar(charact):
+def desencriptar(caracter):
     chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-    for i, elemento in enumerate(chars):
-        if elemento == charact:
-            return i + 1
+    for índice, elemento in enumerate(chars):
+        if elemento == caracter:
+            return índice + 1
+    return None
 
-encript = encriptar(123)
-decript = desencriptar(1)
-print(encript)
-print(decript)
+
+encriptar = encriptar(123)
+desencriptar = desencriptar(1)
+print(encriptar)
+print(desencriptar)

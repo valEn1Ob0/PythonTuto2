@@ -1,4 +1,4 @@
-import paquete.arigmetica as par
+import paquete.aritmética as par
 
 num = par.suma(1,2,4)
 num2 = par.resta(1,2,3,4,5,9)

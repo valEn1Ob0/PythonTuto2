@@ -15,4 +15,4 @@ persona = {
     "clave1": 10,
     "clave1": -5
 }
-print(persona) # como resultado usa la clave mas nueva
+print(persona) # como resultado usa la clave más nueva
